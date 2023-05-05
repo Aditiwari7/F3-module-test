@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    padding: 30px;
+}
+
+h1{
+    margin-top: 0;
+    font-size: 34px;
+}
+
+#buttonBox button{
+    margin: 10px 0;
+
+    background-color: black;
+    color: white;
+    padding: 18px 100px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+#buttonBox button:hover{
+    color: rgb(109, 193, 109);
+}
+
+.infoBox{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+#infoBox1{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#mapFrame{
+    margin : 40px 0;
+    width : 100%;
+    height : 500px;
+}
+
+#infoBox2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p{
+    margin : 0;
+    display : inline ;
+    font-weight: 500;
+}
+
+#postalInfo{
+    margin-top: 50px;
+}
+
+#searchBar{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 10px;
+
+    border: 2px solid black;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+#searchBar input{
+    flex: 1;
+    border: none;
+    padding: none;
+}
+
+#searchBar input::placeholder{
+    font-size: 30px;
+    color: black;
+}
+
+#searchBar input:focus{
+    border: none;
+    outline: none;
+    font-size: 30px;
+}
+
+#searchBar img{
+    height: 30px;
+}
+
+#postalCard{
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+}
+
+.cards{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 30px;
+    padding: 25px;
+}
