@@ -62,7 +62,6 @@ p{
     flex-direction: row;
     align-content: center;
     gap: 10px;
-
     border: 2px solid black;
     padding: 15px 20px;
     border-radius: 10px;
@@ -100,7 +99,7 @@ p{
 .cards{
     border: 2px solid black;
     border-radius: 10px;
-    width: 500px;
+    width: 558px;
     display: flex;
     flex-direction: column;
     gap: 20px;
